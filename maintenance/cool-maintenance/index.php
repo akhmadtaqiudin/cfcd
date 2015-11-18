@@ -7,39 +7,7 @@
 	$tanggal = substr($maintenance_tgl,8,2);
 	$bulan = substr($maintenance_tgl,5,2);
 	$tahun = substr($maintenance_tgl,0,4);    
-   // $sisa_waktu = $maintenance_tgl - date('Y-m-d h:i:s');
-  
-    
-    
-    
-    //tentukan waktu tujuan
-    $waktu_tujuan = mktime(0,0,0,$bulan,$tanggal,$tahun);
-    
-    //tentukan waktu saat ini
-    $waktu_sekarang = mktime(date('H'), date("i"), date("s"), date("m"), date("d"), date("y"));
-    
-    //hitung selisih kedua waktu
-   // $selisih_waktu = $waktu_tujuan–$waktu_sekarang;
-    $sisa_waktu = $waktu_tujuan-$waktu_sekarang;
-    
-    //Untuk menghitung jumlah dalam satuan hari:
-    $jumlah_hari = floor($sisa_waktu/86400);
-   // if($jumlah_hari<10) $jumlah_hari = "0".$jumlah_hari;
-    //Untuk menghitung jumlah dalam satuan jam:
-    $sisa = $sisa_waktu % 86400;
-    $jumlah_jam = floor($sisa/3600);
-    if($jumlah_jam<10) $jumlah_jam = "0".$jumlah_jam;
-    //Untuk menghitung jumlah dalam satuan menit:
-    $sisa = $sisa % 3600;
-    $jumlah_menit = floor($sisa/60);
-    if($jumlah_menit<10) $jumlah_menit = "0".$jumlah_menit;
-    //Untuk menghitung jumlah dalam satuan detik:
-    $sisa = $sisa % 60;
-    $jumlah_detik = floor($sisa/1);
-    if($jumlah_detik<10) $jumlah_detik = "0".$jumlah_detik;
-    // print_r($tahun); exit;
-    
-    ?>    
+ ?>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -83,7 +51,7 @@
 		</div>
 	</div>
 <div class="footer">
-	<p>Copyright © Cool Under Construction Page. All Rights Reserved | Design by <a href="http://w3layouts.com" target="_blank">W3layouts</a></p>
+	<p>Copyright © Cool Under Construction Page. All Rights Reserved | Design by <a href="http://dadanh.com" target="_blank">Kerendi Developers</a></p>
 </div>
 <script>
     $(document).ready(function(){
@@ -92,7 +60,6 @@
 	$('#counter').countdown({
 		timestamp: new Date(<?=$tahun;?>, <?=$bulan;?>-1, <?=$tanggal;?>)
 	});
-
 
 	/* ---- Animations ---- */
 
