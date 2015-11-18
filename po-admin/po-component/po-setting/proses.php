@@ -141,10 +141,13 @@ elseif ($mod=='setting' AND $act=='timezone'){
 elseif ($mod=='setting' AND $act=='maintenance'){
 	if($currentRoleAccess->modify_access == "Y"){
 		$post = $val->validasi($_POST['post'],'xss');
+        //explode terlebih dahulu sebelum dimasukan ke database
+        $date = explode("-",$post);
+        $date_result = $date[2]."-".$date[0]."-".$date[1]." 00:00:00";
 		$status = $val->validasi($_POST['status'],'xss');
 		$data = array(
 			'website_maintenance' => $status,
-			'website_maintenance_tgl' => $post
+			'website_maintenance_tgl' => $date_result
 		);
 		$table = new PoTable('setting');
 		$table->updateBy('id_setting', '1', $data);

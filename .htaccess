@@ -15,7 +15,8 @@ RewriteRule ^search-result/([^/]*)$ index.php?mod=searchresult&search=$1 [L]
 RewriteRule ^search-result/([^/]*)/([^/]*)$ index.php?mod=searchresult&search=$1&page=$2 [L]
 RewriteRule ^login$ index.php?mod=login [L]
 RewriteRule ^register$ index.php?mod=register [L]
-RewriteRule ^maintenance$ maintenance.php [L]
+#RewriteRule ^maintenance$ maintenance.php [L]
+RewriteRule ^maintenance$ maintenance/$1 [L]
 </IfModule>
 
 <IfModule mod_php5.c>

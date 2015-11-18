@@ -98,8 +98,8 @@ if (!file_exists("po-library/po-config.php")){
 	$sharetw = $twit;
 	hapus baris ini dan ubah urlnya jika web Anda sudah di hosting ---*/
 
-	if ($mode_maintenance == "Y"){
-		header('location:maintenance');
+	if ($mode_maintenance == "Y"){ 
+		header('location:maintenance.php');
 	}else{
 		if (!isset($_SESSION['submit'])) {
 			$_SESSION['submit'] = true;

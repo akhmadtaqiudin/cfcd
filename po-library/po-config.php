@@ -6,7 +6,7 @@ $site['build']      	= '0';
 $site['release']    	= '09 Februari 2015';
 
 $site['title']      	= "company";
-$site['url']     	 	= "http://localhost/profile/";
+$site['url']     	 	= "http://localhost/cfd/";
 $site['adm']  		 	= "{$site['url']}po-admin/";
 $site['con']     	 	= "{$site['url']}po-content/";
 $site['lib']  		 	= "{$site['url']}po-library/";
@@ -25,7 +25,7 @@ $db['sock']          	= "";
 $db['port']          	= "";
 $db['user']          	= "root";
 $db['passwd']			= "";
-$db['db']				= "project";
+$db['db']				= "cfd";
 
 define('DATABASE_HOST', $db['host']);
 define('DATABASE_SOCK', $db['sock']);
