@@ -11,7 +11,7 @@ $site['adm']  		 	= "{$site['url']}po-admin/";
 $site['con']     	 	= "{$site['url']}po-content/";
 $site['lib']  		 	= "{$site['url']}po-library/";
 
-$dir['root']        	= "/opt/lampp/htdocs/profile/"; 
+$dir['root']        	= "/opt/lampp/htdocs/profile/";
 $dir['adm']         	= "{$dir['root']}po-admin/";
 $dir['con']         	= "{$dir['root']}po-content/";
 $dir['lib']         	= "{$dir['root']}po-library/";
@@ -25,7 +25,7 @@ $db['sock']          	= "";
 $db['port']          	= "";
 $db['user']          	= "root";
 $db['passwd']			= "";
-$db['db']				= "project";
+$db['db']				= "cfcd";
 
 define('DATABASE_HOST', $db['host']);
 define('DATABASE_SOCK', $db['sock']);
@@ -38,7 +38,7 @@ if (version_compare(phpversion(), "5.3.0", ">=")  == 1)
 	error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 else
 	error_reporting(E_ALL & ~E_NOTICE);
-  
+
 if (file_exists( $dir['root'] . 'po-install' )){
 $ret = <<<EOJ
 	<!DOCTYPE html>
