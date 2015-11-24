@@ -42,38 +42,38 @@
 		<div class="container">
 			   <div class="team-main">
 					<div class="team-top">
-							<h3>Our Team</h3>
+							<h3>Pengurus CFCD</h3>
 					</div>
 						<ul class="ch-grid">
 					<li>
 						<a href="#"><div class="ch-item ch-img-1">
 							<div class="ch-info">
-								<h3>Brainiac</h3>
-								<p>by Daniel Nyari</p>
+								<h3>Nama</h3>
+								<p>Jabatan</p>
 							</div>
 						</div></a>
 					</li>
 					<li>
 						<a href="#"><div class="ch-item ch-img-2">
 							<div class="ch-info">
-								<h3>Vision</h3>
-								<p>by Daniel Nyari</p>
+								<h3>Nama</h3>
+								<p>Jabatan</p>
 							</div>
 						</div></a>
 					</li>
 					<li>
 						<a href="#"><div class="ch-item ch-img-3">
 							<div class="ch-info">
-								<h3>Cylon</h3>
-								<p>by Daniel Nyari </p>
+								<h3>Nama</h3>
+								<p>Jabatan</p>
 							</div>
 						</div></a>
 					</li>
 					<li>
 						<a href="#"><div class="ch-item ch-img-4">
 							<div class="ch-info">
-								<h3>Cylon</h3>
-								<p>by Daniel Nyari</p>
+								<h3>Nama</h3>
+								<p>Jabatan</p>
 							</div>
 						</div></a>
 					</li>
@@ -84,6 +84,54 @@
 </div>
 
 <!--team end  here-->
+
+<!--Komite CSR here-->
+<div class="team-mem" id="Komite CSR">
+		<div class="container">
+			   <div class="team-main">
+					<div class="team-top">
+							<h3>Komite CSR</h3>
+					</div>
+						<ul class="ch-grid">
+					<li>
+						<a href="#"><div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-4">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+				</ul>
+					<div class="clearfix"> </div>
+			</div>
+	  </div>
+</div>
+
+<!--Komite CSR end  here-->
 <!-- //testi -->
 <!-- awarded -->
 <div class="award">

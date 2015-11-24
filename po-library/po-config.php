@@ -6,7 +6,7 @@ $site['build']      	= '0';
 $site['release']    	= '09 Februari 2015';
 
 $site['title']      	= "company";
-$site['url']     	 	= "http://localhost/profile/";
+$site['url']     	 	= "http://localhost/cfcd/";
 $site['adm']  		 	= "{$site['url']}po-admin/";
 $site['con']     	 	= "{$site['url']}po-content/";
 $site['lib']  		 	= "{$site['url']}po-library/";
