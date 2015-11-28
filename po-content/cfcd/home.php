@@ -132,6 +132,54 @@
 </div>
 
 <!--Komite CSR end  here-->
+
+<!--Badan Kompetensi CSR Officer-->
+<div class="team-mem" id="Komite CSR">
+		<div class="container">
+			   <div class="team-main">
+					<div class="team-top">
+							<h3>Badan Kompetensi CSR Officer</h3>
+					</div>
+						<ul class="ch-grid">
+					<li>
+						<a href="#"><div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="#"><div class="ch-item ch-img-4">
+							<div class="ch-info">
+								<h3>Nama</h3>
+								<p>Jabatan</p>
+							</div>
+						</div></a>
+					</li>
+				</ul>
+					<div class="clearfix"> </div>
+			</div>
+	  </div>
+</div>
+
+<!--Komite CSR end  here-->
 <!-- //testi -->
 <!-- awarded -->
 <div class="award">
@@ -160,7 +208,7 @@
 	<div class="container">
 		<div class="sevices-main">
 			<div class="ser-top">
-			<h3>Services</h3>
+			<h3>Layanan</h3>
 			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,similique sunt in culpa qui officia deserunt mollitia</p>
 			</div>
 			<div class="col-md-4 ser-grid">
